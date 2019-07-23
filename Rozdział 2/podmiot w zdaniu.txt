@@ -1,0 +1,8 @@
+Podmiot w języku niemieckim występuje zawsze w pierwszym przypadku liczby pojedynczej lub liczby mnogiej.
+Dla rzeczowników osobowych pytanie brzmi wer - kto,
+a dla rzeczowników nieosobowych was - co,
+
+np.
+
+Herr Neumann sucht ein Zimmer. - Wer sucht ein Zimmer?
+Das Zimmer ist besetzt. - Was ist besetzt?

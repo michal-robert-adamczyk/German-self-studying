@@ -1,0 +1,14 @@
+Zdanie współrzędnie złożone składa sie z dwóch lub więcej zdań prostych
+np.
+Er ruft in einem Hotel an. Er bekommt ein Doppelzimmer.
+Er bekommt ein Doppelzimmer. Die Einzelzimmer sind basetzt.
+
+Kiedy powyższe zdania połączymy za pomocą spójników und (i, a) lub denn (bo, ponieważ, gdyż) wówczas otrzymujemy zdanie współrzędnie złożone z następującą skladnią:
+
+Er ruft in einem Hotel an und bekommt ein Doppelzimmer.
+
+Jeśli w obu zdaniach występuje ten sam podmiot zdania, to po spójniku und występije szyk prosty i nie powtarza się podmiotu.
+
+Er bekommt ein Doppelzimmer, denn die Einzelzimmer sind besetzt.
+Po spójniku denn występuje szyk prosty i powtarza sie podmiot:
+Der Herr kennt nur das Hotel "Formel 1", denn das Hotel "Format 1" gibt es nicht. - Ten pan zna tylko hoterl "Formuła 1", bo nie ma hotelu "Format 1".
