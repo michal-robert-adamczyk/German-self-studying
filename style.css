@@ -2,12 +2,19 @@
     color: #FF5964;
 }
 .body--content{
+    
     display: block;
-    width: 700px;
+    max-width: 700px;
+    width: 100%;
 }
 .body{
     background: #FFDF5C;
 }
 .head--h1{
     color: #DD0000;
+}
+
+.img--footer{
+    max-width: 700px;
+    width: 100%;
 }
