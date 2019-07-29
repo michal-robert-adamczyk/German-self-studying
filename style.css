@@ -1,6 +1,10 @@
 .navigation--link{
     color: #FF5964;
 }
+.body--content{
+    display: block;
+    width: 700px;
+}
 .body{
     background: #FFDF5C;
 }
