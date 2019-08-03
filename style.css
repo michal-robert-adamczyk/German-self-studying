@@ -6,23 +6,42 @@ html {
     box-sizing: inherit;
 }
 
-.navigation--link{
-    color: #FF5964;
-}
-.body--content{
-    
-    display: block;
-    max-width: 700px;
-    width: 100%;
-}
 .body{
     background: #FFDF5C;
-}
-.head--h1{
-    color: #DD0000;
+    display: grid;
+    grid-template-areas: 
+    "navigation navigation navigation" 
+    "header header header" 
+    "content . menu" 
+    "footer footer footer";
+grid-template-columns: 300px 100px 50px;
 }
 
-.img--footer{
-    max-width: 700px;
-    width: 100%;
+.main__header{
+    grid-area: header;
+}
+
+.main__navigation{
+grid-area: navigation;
+ }
+
+.main__content{
+    grid-area: content;
+}
+
+.main__menu{
+    display: flex;
+    
+    grid-area: menu;
+}
+
+.main__footer{
+    display: flex;
+    width: 100%
+    min-width: 200px;
+    grid-area: footer;
+    }
+
+.main__footer--img{
+    width: 50%;
 }
