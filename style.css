@@ -1,6 +1,28 @@
-body{
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.navigation--link{
+    color: #FF5964;
+}
+.body--content{
+    
+    display: block;
+    max-width: 700px;
+    width: 100%;
+}
+.body{
     background: #FFDF5C;
 }
-h1{
+.head--h1{
     color: #DD0000;
+}
+
+.img--footer{
+    max-width: 700px;
+    width: 100%;
 }
