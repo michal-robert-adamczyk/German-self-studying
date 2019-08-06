@@ -21,6 +21,17 @@ grid-template-columns: 10fr 1fr 4fr;
     grid-area: header;
 }
 
+.site-header{
+    background: #0000009b;
+    box-sizing: border-box;
+    left:0;
+    padding: 16px;
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index: 10;
+    min-height: 52px;
+}
 
 .navigation__list{
     grid-area: navigation;
@@ -55,6 +66,15 @@ grid-template-columns: 10fr 1fr 4fr;
     grid-area: footer;
 }
 
+@media (min-width: 641px){
+    .main{
+        max-width: 900px;
+    }
+    .navigation__switcher{
+        display: none;
+    }
+}
+
 @media (max-width: 640px) {
     .navigation__list{
         flex-direction: column;
@@ -66,5 +86,12 @@ grid-template-columns: 10fr 1fr 4fr;
     }
     .navigation__item{
         margin: 16px;
+    }
+    .navigation__switcher{
+        border:none;
+        background: none;
+        position: absolute;
+        right: 0;
+        top: 16px;
     }
 }
