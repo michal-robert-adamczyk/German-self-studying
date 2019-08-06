@@ -22,7 +22,7 @@ grid-template-columns: 10fr 1fr 4fr;
 }
 
 
-.navigation__unorderedList{
+.navigation__list{
     grid-area: navigation;
     display: flex;
     flex-direction: row;
@@ -56,9 +56,13 @@ grid-template-columns: 10fr 1fr 4fr;
 }
 
 @media (max-width: 640px) {
-    .navigation_list{
+    .navigation__list{
         flex-direction: column;
         flex-wrap: nowrap;
+        display: none;
+    }
+    .navigation__list--visible{
+        display: flex;
     }
     .navigation__item{
         margin: 16px;
