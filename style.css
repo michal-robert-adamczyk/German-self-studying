@@ -25,7 +25,7 @@ grid-template-columns: 10fr 1fr 4fr;
 .navigation__unorderedList{
     grid-area: navigation;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
 }
@@ -57,7 +57,10 @@ grid-template-columns: 10fr 1fr 4fr;
 
 @media (max-width: 640px) {
     .navigation_list{
-        flex-direction: column:
-        .navigation
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .navigation__item{
+        margin: 16px;
     }
 }
