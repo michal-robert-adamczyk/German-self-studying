@@ -14,20 +14,17 @@ html {
     "header header header" 
     "content . menu" 
     "footer footer footer";
-grid-template-columns: 300px 100px 50px;
+grid-template-columns: 10fr 1fr 4fr;
+grid-template-rows: 100px 100px 500px 100px;
 }
 
 .main__header{
     grid-area: header;
 }
 
-.main__navigation{
-grid-area: navigation;
-justify-content: space-around;
-display: flex;
- }
 
 .main__navigationUL{
+    grid-area: navigation;
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -45,19 +42,17 @@ display: flex;
 }
 
 .main__menu{
-    display: flex;
-    
+    display: flex;   
     grid-area: menu;
 }
 
-.main__footer{
+.main__menuLink{
     display: flex;
-    width: 100%
-    max-width: 200px;
-    grid-area: footer;
-    }
+    flex-direction: column;
+}
 
-.main__footer--img{
-    display: block;
-    width: 100%;
+.main__footer{
+    grid-area: footer;
+}
+
 }
