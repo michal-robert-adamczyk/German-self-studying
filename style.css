@@ -15,7 +15,6 @@ html {
     "content . menu" 
     "footer footer footer";
 grid-template-columns: 10fr 1fr 4fr;
-grid-template-rows: 100px 100px 500px 100px;
 }
 
 .main__header{
@@ -23,14 +22,15 @@ grid-template-rows: 100px 100px 500px 100px;
 }
 
 
-.main__navigationUL{
+.navigation__unorderedList{
     grid-area: navigation;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     list-style: none;
 }
 
-.main_navigationItem{
+.navigation__item{
     display:flex;
     width: 90px;
     align-items: center;
@@ -55,4 +55,9 @@ grid-template-rows: 100px 100px 500px 100px;
     grid-area: footer;
 }
 
+@media (max-width: 640px) {
+    .navigation_list{
+        flex-direction: column:
+        .navigation
+    }
 }
