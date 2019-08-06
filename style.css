@@ -23,7 +23,22 @@ grid-template-columns: 300px 100px 50px;
 
 .main__navigation{
 grid-area: navigation;
+justify-content: space-around;
+display: flex;
  }
+
+.main__navigationUL{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.main_navigationItem{
+    display:flex;
+    width: 90px;
+    align-items: center;
+}
+
 
 .main__content{
     grid-area: content;
@@ -38,10 +53,11 @@ grid-area: navigation;
 .main__footer{
     display: flex;
     width: 100%
-    min-width: 200px;
+    max-width: 200px;
     grid-area: footer;
     }
 
 .main__footer--img{
-    width: 50%;
+    display: block;
+    width: 100%;
 }
